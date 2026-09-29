@@ -19,6 +19,7 @@ dist/
 build/
 .next/
 out/
+!pythonanywhere_deploy/dist/
 
 # ── Uploads (user files, not source) ─────────────────────────────────────────
 backend/uploads/

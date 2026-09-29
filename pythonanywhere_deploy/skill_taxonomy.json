@@ -1,0 +1,112 @@
+[
+  {
+    "name": "JavaScript",
+    "category": "LANGUAGE",
+    "aliases": ["js", "es6", "vanilla js", "ecmascript"]
+  },
+  {
+    "name": "TypeScript",
+    "category": "LANGUAGE",
+    "aliases": ["ts"]
+  },
+  {
+    "name": "Python",
+    "category": "LANGUAGE",
+    "aliases": ["py", "python3"]
+  },
+  {
+    "name": "Java",
+    "category": "LANGUAGE",
+    "aliases": ["core java", "j2ee"]
+  },
+  {
+    "name": "C++",
+    "category": "LANGUAGE",
+    "aliases": ["cpp", "cplusplus"]
+  },
+  {
+    "name": "React.js",
+    "category": "FRAMEWORK",
+    "aliases": ["react", "reactjs", "react.js"]
+  },
+  {
+    "name": "Node.js",
+    "category": "FRAMEWORK",
+    "aliases": ["node", "nodejs", "node.js"]
+  },
+  {
+    "name": "Express.js",
+    "category": "FRAMEWORK",
+    "aliases": ["express", "expressjs"]
+  },
+  {
+    "name": "FastAPI",
+    "category": "FRAMEWORK",
+    "aliases": ["fast-api", "fast api"]
+  },
+  {
+    "name": "Django",
+    "category": "FRAMEWORK",
+    "aliases": ["django rest framework", "drf"]
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "DATABASE",
+    "aliases": ["postgres", "pgsql", "psql"]
+  },
+  {
+    "name": "MongoDB",
+    "category": "DATABASE",
+    "aliases": ["mongo", "nosql mongo"]
+  },
+  {
+    "name": "Redis",
+    "category": "DATABASE",
+    "aliases": ["redis cache", "in-memory redis"]
+  },
+  {
+    "name": "Docker",
+    "category": "TOOL",
+    "aliases": ["containerization", "docker-compose"]
+  },
+  {
+    "name": "Kubernetes",
+    "category": "TOOL",
+    "aliases": ["k8s", "kube"]
+  },
+  {
+    "name": "Git",
+    "category": "TOOL",
+    "aliases": ["github", "gitlab", "version control"]
+  },
+  {
+    "name": "AWS",
+    "category": "CLOUD",
+    "aliases": ["amazon web services", "ec2", "s3", "lambda"]
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "FRAMEWORK",
+    "aliases": ["tailwind", "tailwindcss"]
+  },
+  {
+    "name": "scikit-learn",
+    "category": "FRAMEWORK",
+    "aliases": ["sklearn", "scikit"]
+  },
+  {
+    "name": "spaCy",
+    "category": "FRAMEWORK",
+    "aliases": ["spacy nlp"]
+  },
+  {
+    "name": "Problem Solving",
+    "category": "SOFT",
+    "aliases": ["analytical thinking", "critical thinking"]
+  },
+  {
+    "name": "Communication",
+    "category": "SOFT",
+    "aliases": ["written communication", "verbal communication", "team presentation"]
+  }
+]

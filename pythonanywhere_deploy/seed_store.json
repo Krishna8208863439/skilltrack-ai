@@ -1,0 +1,668 @@
+{
+  "users": [
+    {
+      "id": "u-admin-1",
+      "email": "krishna@gmail.com",
+      "passwordHash": "$2a$10$ndYCIieHy.VDSwonc1JhL.DomV5AcCjE4iaYCIREZgPa5w3mbzx12",
+      "name": "Krishna",
+      "role": "ADMIN",
+      "isActive": true,
+      "emailVerified": true,
+      "createdAt": "2026-08-30T21:36:39.695Z"
+    },
+    {
+      "id": "u-cand-1",
+      "email": "priya.sharma@demo.com",
+      "passwordHash": "$2a$10$cq4RczmNEO7MORa6ybg2tOvI8fKIyLF79uhqEb45vzumA5cjQ2zxW",
+      "name": "Priya Sharma",
+      "role": "CANDIDATE",
+      "phone": "+91-9876543210",
+      "isActive": true,
+      "emailVerified": true,
+      "createdAt": "2026-09-04T21:36:39.754Z"
+    },
+    {
+      "id": "u-cand-2",
+      "email": "rahul.kumar@demo.com",
+      "passwordHash": "$2a$10$0OM9.K0Hr6f.A8SNcwszauQW1Rs4SXUO/oWO2ex.In60LplFlvz1W",
+      "name": "Rahul Kumar",
+      "role": "CANDIDATE",
+      "phone": "+91-9876543211",
+      "isActive": true,
+      "emailVerified": true,
+      "createdAt": "2026-09-09T21:36:39.812Z"
+    },
+    {
+      "id": "u-inst-1",
+      "email": "director@iitdelhi-skills.ac.in",
+      "passwordHash": "$2a$10$yPdg9TUMG1.91Qu4gPvuIuY0ftL47DUA0bHJqxYIsmJ.stIcIbETO",
+      "name": "Dr. Ramesh Sundaram",
+      "role": "INSTITUTE",
+      "phone": "+91-11-26597135",
+      "isActive": true,
+      "emailVerified": true,
+      "createdAt": "2026-08-20T21:36:39.872Z"
+    },
+    {
+      "id": "u-emp-1",
+      "email": "recruiter@techcorp.in",
+      "passwordHash": "$2a$10$MS3FfmB6SW7m/xcdhRkT8enP/GE1aZXskl3VEZ6Zms9WrBqSAQgvK",
+      "name": "TechCorp Hiring Team",
+      "role": "EMPLOYER",
+      "phone": "+91-80-49201000",
+      "isActive": true,
+      "emailVerified": true,
+      "createdAt": "2026-08-25T21:36:39.933Z"
+    }
+  ],
+  "candidateProfiles": [
+    {
+      "id": "cp-1",
+      "userId": "u-cand-1",
+      "headline": "Aspiring Full Stack Engineer & Cloud Developer",
+      "bio": "B.Tech Computer Science graduate passionate about scalable web technologies, API design, and cloud architecture.",
+      "location": "New Delhi, India",
+      "targetJobRole": "Full Stack Engineer",
+      "yearsOfExperience": 1.5,
+      "placementStatus": "INTERVIEWING",
+      "education": [
+        {
+          "id": "edu-1",
+          "institution": "Delhi Technological University",
+          "degree": "B.Tech",
+          "fieldOfStudy": "Computer Science & Engineering",
+          "startYear": 2020,
+          "endYear": 2024,
+          "grade": "8.8 CGPA"
+        }
+      ],
+      "experiences": [
+        {
+          "id": "exp-1",
+          "company": "NextGen Solutions",
+          "role": "Software Engineering Intern",
+          "startDate": "2023-06-01",
+          "endDate": "2023-12-15",
+          "description": "Built RESTful endpoints with Node.js and improved database query latency by 35%."
+        }
+      ],
+      "skills": [
+        {
+          "id": "cs-1",
+          "name": "JavaScript",
+          "proficiency": 4,
+          "category": "LANGUAGE",
+          "source": "SELF_REPORTED",
+          "isVerified": true
+        },
+        {
+          "id": "cs-2",
+          "name": "TypeScript",
+          "proficiency": 3,
+          "category": "LANGUAGE",
+          "source": "SELF_REPORTED",
+          "isVerified": false
+        },
+        {
+          "id": "cs-3",
+          "name": "React.js",
+          "proficiency": 4,
+          "category": "FRAMEWORK",
+          "source": "RESUME_EXTRACTED",
+          "isVerified": true
+        },
+        {
+          "id": "cs-4",
+          "name": "Node.js",
+          "proficiency": 3,
+          "category": "FRAMEWORK",
+          "source": "RESUME_EXTRACTED",
+          "isVerified": true
+        },
+        {
+          "id": "cs-5",
+          "name": "PostgreSQL",
+          "proficiency": 3,
+          "category": "DATABASE",
+          "source": "SELF_REPORTED",
+          "isVerified": false
+        },
+        {
+          "id": "cs-6",
+          "name": "Git",
+          "proficiency": 4,
+          "category": "TOOL",
+          "source": "SELF_REPORTED",
+          "isVerified": true
+        }
+      ],
+      "consent": {
+        "shareProfileWithEmployers": true,
+        "shareResumeWithEmployers": true,
+        "shareAcademicRecords": true,
+        "allowPlacementTracking": true
+      }
+    },
+    {
+      "id": "cp-2",
+      "userId": "u-cand-2",
+      "headline": "Python Backend & Data Engineer",
+      "bio": "Enthusiastic developer focused on data modeling, automated ETL pipelines, and machine learning integration.",
+      "location": "Bengaluru, India",
+      "targetJobRole": "Data Engineer",
+      "yearsOfExperience": 1,
+      "placementStatus": "LOOKING_FOR_JOB",
+      "education": [
+        {
+          "id": "edu-2",
+          "institution": "RV College of Engineering",
+          "degree": "B.E.",
+          "fieldOfStudy": "Information Science",
+          "startYear": 2020,
+          "endYear": 2024,
+          "grade": "8.4 CGPA"
+        }
+      ],
+      "experiences": [],
+      "skills": [
+        {
+          "id": "cs-7",
+          "name": "Python",
+          "proficiency": 4,
+          "category": "LANGUAGE",
+          "source": "ASSESSMENT",
+          "isVerified": true
+        },
+        {
+          "id": "cs-8",
+          "name": "FastAPI",
+          "proficiency": 3,
+          "category": "FRAMEWORK",
+          "source": "SELF_REPORTED",
+          "isVerified": false
+        },
+        {
+          "id": "cs-9",
+          "name": "PostgreSQL",
+          "proficiency": 3,
+          "category": "DATABASE",
+          "source": "SELF_REPORTED",
+          "isVerified": false
+        },
+        {
+          "id": "cs-10",
+          "name": "scikit-learn",
+          "proficiency": 2,
+          "category": "FRAMEWORK",
+          "source": "SELF_REPORTED",
+          "isVerified": false
+        }
+      ],
+      "consent": {
+        "shareProfileWithEmployers": true,
+        "shareResumeWithEmployers": true,
+        "shareAcademicRecords": true,
+        "allowPlacementTracking": true
+      }
+    }
+  ],
+  "instituteProfiles": [
+    {
+      "id": "inst-1",
+      "userId": "u-inst-1",
+      "name": "IIT Delhi Skill Development Center",
+      "code": "IITD-SKILL-01",
+      "type": "COLLEGE",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "isAccredited": true,
+      "placedStudentsCount": 142,
+      "totalEnrolledCount": 180
+    }
+  ],
+  "employerProfiles": [
+    {
+      "id": "emp-1",
+      "userId": "u-emp-1",
+      "companyName": "TechCorp India Technologies",
+      "industry": "Information Technology",
+      "website": "https://techcorp.in",
+      "location": "Bengaluru / Hybrid",
+      "verified": true
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "employerId": "emp-1",
+      "title": "Full Stack Engineer (React + Node)",
+      "company": "TechCorp India",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "HYBRID",
+      "jobType": "FULL_TIME",
+      "minExperience": 1,
+      "maxExperience": 3,
+      "salaryRange": "₹8,00,000 - ₹14,00,000 / year",
+      "description": "We are seeking an energetic Full Stack Engineer to architect modern microservices and responsive user interfaces. You will collaborate with cloud architects and product leaders.",
+      "requiredSkills": [
+        {
+          "name": "React.js",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "Node.js",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "PostgreSQL",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "Docker",
+          "importance": "REQUIRED",
+          "minProficiency": 2
+        },
+        {
+          "name": "TypeScript",
+          "importance": "PREFERRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "AWS",
+          "importance": "NICE_TO_HAVE",
+          "minProficiency": 2
+        }
+      ],
+      "status": "ACTIVE",
+      "applicationsCount": 14,
+      "createdAt": "2026-09-17T21:36:39.933Z"
+    },
+    {
+      "id": "job-2",
+      "employerId": "emp-1",
+      "title": "Backend API Developer (Python/FastAPI)",
+      "company": "TechCorp India",
+      "location": "New Delhi / Remote",
+      "workMode": "REMOTE",
+      "jobType": "FULL_TIME",
+      "minExperience": 1,
+      "maxExperience": 2.5,
+      "salaryRange": "₹7,50,000 - ₹12,00,000 / year",
+      "description": "Design and deploy high-throughput RESTful and asynchronous event-driven services using Python, FastAPI, and relational PostgreSQL databases.",
+      "requiredSkills": [
+        {
+          "name": "Python",
+          "importance": "REQUIRED",
+          "minProficiency": 4
+        },
+        {
+          "name": "FastAPI",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "PostgreSQL",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "Docker",
+          "importance": "PREFERRED",
+          "minProficiency": 2
+        },
+        {
+          "name": "Redis",
+          "importance": "NICE_TO_HAVE",
+          "minProficiency": 2
+        }
+      ],
+      "status": "ACTIVE",
+      "applicationsCount": 9,
+      "createdAt": "2026-09-19T21:36:39.933Z"
+    },
+    {
+      "id": "job-3",
+      "employerId": "emp-1",
+      "title": "Cloud DevOps Associate",
+      "company": "TechCorp India",
+      "location": "Hyderabad, Telangana",
+      "workMode": "ONSITE",
+      "jobType": "FULL_TIME",
+      "minExperience": 0.5,
+      "maxExperience": 2,
+      "salaryRange": "₹6,00,000 - ₹10,00,000 / year",
+      "description": "Support continuous integration and deployment pipelines, container orchestration with Kubernetes, and infrastructure management.",
+      "requiredSkills": [
+        {
+          "name": "Docker",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "Kubernetes",
+          "importance": "REQUIRED",
+          "minProficiency": 2
+        },
+        {
+          "name": "Git",
+          "importance": "REQUIRED",
+          "minProficiency": 3
+        },
+        {
+          "name": "AWS",
+          "importance": "PREFERRED",
+          "minProficiency": 2
+        },
+        {
+          "name": "Python",
+          "importance": "NICE_TO_HAVE",
+          "minProficiency": 2
+        }
+      ],
+      "status": "ACTIVE",
+      "applicationsCount": 6,
+      "createdAt": "2026-09-24T21:36:39.934Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs-1",
+      "title": "Production Docker & Container Orchestration Masterclass",
+      "provider": "IIT Delhi Skill Center",
+      "durationWeeks": 4,
+      "difficulty": "INTERMEDIATE",
+      "skillsTaught": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "description": "Hands-on practical training on multi-stage builds, container security, Docker Compose, and Kubernetes deployment architecture.",
+      "isVerified": true,
+      "rating": 4.8,
+      "enrolledCount": 140,
+      "certificationOffered": true
+    },
+    {
+      "id": "crs-2",
+      "title": "Advanced TypeScript & Full Stack Patterns",
+      "provider": "NASSCOM FutureSkills",
+      "durationWeeks": 6,
+      "difficulty": "INTERMEDIATE",
+      "skillsTaught": [
+        "TypeScript",
+        "React.js"
+      ],
+      "description": "Deep dive into generics, utility types, enterprise state patterns, and end-to-end type safety.",
+      "isVerified": true,
+      "rating": 4.9,
+      "enrolledCount": 220,
+      "certificationOffered": true
+    },
+    {
+      "id": "crs-3",
+      "title": "Cloud Foundations & AWS Architecting",
+      "provider": "Ministry of Skill Development & Entrepreneurship",
+      "durationWeeks": 8,
+      "difficulty": "BEGINNER_TO_INTERMEDIATE",
+      "skillsTaught": [
+        "AWS",
+        "Cloud Architecture"
+      ],
+      "description": "Official curriculum covering compute, VPC networking, RDS, S3, IAM policies, and serverless architectures.",
+      "isVerified": true,
+      "rating": 4.7,
+      "enrolledCount": 310,
+      "certificationOffered": true
+    },
+    {
+      "id": "crs-4",
+      "title": "Modern Redis Caching & In-Memory Data Structures",
+      "provider": "IIT Delhi Skill Center",
+      "durationWeeks": 3,
+      "difficulty": "INTERMEDIATE",
+      "skillsTaught": [
+        "Redis",
+        "Performance Optimization"
+      ],
+      "description": "Explore caching strategies, pub/sub channels, rate limiting, and session stores in production.",
+      "isVerified": true,
+      "rating": 4.6,
+      "enrolledCount": 95,
+      "certificationOffered": true
+    }
+  ],
+  "trainingPrograms": [
+    {
+      "id": "prog-1",
+      "instituteId": "inst-1",
+      "title": "Full Stack & Cloud Employability Program 2026",
+      "description": "Accelerated 12-week government sponsored employability cohort with mock interviews, industry projects, and direct placement drives.",
+      "durationWeeks": 12,
+      "capacity": 40,
+      "mode": "HYBRID",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-25",
+      "status": "COMPLETED",
+      "skillsTaught": [
+        "Docker",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "targetJobRoles": [
+        "Full Stack Engineer",
+        "Cloud Associate"
+      ]
+    },
+    {
+      "id": "prog-2",
+      "instituteId": "inst-1",
+      "title": "AI & Data Engineering Cohort - Fall 2026",
+      "description": "Specialized 10-week intensive training for data pipelines, FastAPI, feature engineering, and model deployment.",
+      "durationWeeks": 10,
+      "capacity": 35,
+      "mode": "ONSITE",
+      "startDate": "2026-10-05",
+      "endDate": "2026-12-15",
+      "status": "UPCOMING",
+      "skillsTaught": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "targetJobRoles": [
+        "Data Engineer",
+        "Backend Developer"
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr-1",
+      "programId": "prog-1",
+      "userId": "u-cand-1",
+      "candidateName": "Priya Sharma",
+      "status": "COMPLETED",
+      "attendanceRate": 94.5,
+      "finalScore": 88,
+      "completionDate": "2026-09-24T21:36:39.934Z",
+      "enrolledAt": "2026-07-01T21:36:39.934Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1",
+      "userId": "u-cand-1",
+      "candidateName": "Priya Sharma",
+      "candidateEmail": "priya.sharma@demo.com",
+      "jobId": "job-1",
+      "jobTitle": "Full Stack Engineer (React + Node)",
+      "company": "TechCorp India",
+      "status": "INTERVIEW_SCHEDULED",
+      "matchScore": 84.5,
+      "appliedAt": "2026-09-21T21:36:39.934Z",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "changedAt": "2026-09-21T21:36:39.934Z",
+          "notes": "Candidate submitted verified profile application."
+        },
+        {
+          "status": "SHORTLISTED",
+          "changedAt": "2026-09-23T21:36:39.934Z",
+          "notes": "Candidate shortlisted due to high skill match in React & Node."
+        },
+        {
+          "status": "INTERVIEW_SCHEDULED",
+          "changedAt": "2026-09-26T21:36:39.934Z",
+          "notes": "Technical Round 1 scheduled with Senior Engineering Lead."
+        }
+      ]
+    }
+  ],
+  "interviews": [
+    {
+      "id": "int-1",
+      "applicationId": "app-1",
+      "candidateName": "Priya Sharma",
+      "jobTitle": "Full Stack Engineer (React + Node)",
+      "round": "ROUND_1_TECHNICAL",
+      "scheduledAt": "2026-10-01T21:36:39.934Z",
+      "meetingUrl": "https://meet.google.com/cod-ewar-sih",
+      "interviewer": "Vivek Malhotra (Staff Architect)",
+      "status": "SCHEDULED",
+      "feedback": null
+    }
+  ],
+  "employmentOutcomes": [
+    {
+      "id": "out-1",
+      "applicationId": "app-legacy-1",
+      "candidateId": "u-cand-legacy",
+      "candidateName": "Arjun Mehta",
+      "employerName": "TechCorp India",
+      "jobTitle": "Frontend Engineer",
+      "annualSalary": 950000,
+      "offerDate": "2026-08-15T21:36:39.934Z",
+      "joiningDate": "2026-09-09T21:36:39.934Z",
+      "verificationStatus": "EMPLOYER_VERIFIED",
+      "verifiedAt": "2026-09-11T21:36:39.934Z",
+      "offerLetterUrl": "https://storage.skilltrack.ai/offers/tc_arjun.pdf"
+    },
+    {
+      "id": "out-2",
+      "applicationId": "app-legacy-2",
+      "candidateId": "u-cand-legacy-2",
+      "candidateName": "Sneha Patel",
+      "employerName": "CloudWave Global",
+      "jobTitle": "DevOps Associate",
+      "annualSalary": 820000,
+      "offerDate": "2026-08-30T21:36:39.934Z",
+      "joiningDate": "2026-09-19T21:36:39.934Z",
+      "verificationStatus": "INSTITUTE_VERIFIED",
+      "verifiedAt": "2026-09-21T21:36:39.934Z",
+      "offerLetterUrl": "https://storage.skilltrack.ai/offers/cw_sneha.pdf"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "u-cand-1",
+      "title": "Application Shortlisted",
+      "message": "Your application for Full Stack Engineer at TechCorp India has been shortlisted! Review the next steps.",
+      "type": "success",
+      "isRead": false,
+      "link": "/tracking",
+      "createdAt": "2026-09-27T21:36:39.934Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "u-cand-1",
+      "title": "Interview Scheduled",
+      "message": "A Technical Round 1 video interview has been scheduled for your TechCorp application. Check your pipeline.",
+      "type": "info",
+      "isRead": false,
+      "link": "/tracking",
+      "createdAt": "2026-09-28T21:36:39.934Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "u-cand-1",
+      "title": "Complete Your Profile",
+      "message": "Your profile is 65% complete. Add certifications and experience to improve your job match scores.",
+      "type": "warning",
+      "isRead": true,
+      "link": "/profile",
+      "createdAt": "2026-09-24T21:36:39.934Z"
+    },
+    {
+      "id": "notif-4",
+      "userId": "u-cand-1",
+      "title": "New Job Match Found",
+      "message": "A new Cloud DevOps Associate role at TechCorp India matches 79% of your skills. Check it out!",
+      "type": "info",
+      "isRead": true,
+      "link": "/jobs",
+      "createdAt": "2026-09-22T21:36:39.934Z"
+    },
+    {
+      "id": "notif-5",
+      "userId": "u-cand-2",
+      "title": "Complete Your Profile",
+      "message": "Your profile is 65% complete. Add certifications and experience to improve your job match scores.",
+      "type": "warning",
+      "isRead": false,
+      "link": "/profile",
+      "createdAt": "2026-09-26T21:36:39.934Z"
+    },
+    {
+      "id": "notif-6",
+      "userId": "u-emp-1",
+      "title": "New Application Received",
+      "message": "Priya Sharma has applied for Full Stack Engineer (React + Node). Match score: 84.5%.",
+      "type": "info",
+      "isRead": false,
+      "link": "/employer",
+      "createdAt": "2026-09-21T21:36:39.934Z"
+    },
+    {
+      "id": "notif-7",
+      "userId": "u-inst-1",
+      "title": "Enrollment Confirmed",
+      "message": "Priya Sharma has enrolled in Full Stack & Cloud Employability Program 2026.",
+      "type": "success",
+      "isRead": false,
+      "link": "/institute",
+      "createdAt": "2026-09-19T21:36:39.934Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1",
+      "actor": "Admin Officer",
+      "action": "VERIFIED_INSTITUTE_CREDENTIALS",
+      "target": "IIT Delhi Skill Center",
+      "timestamp": "2026-09-14T21:36:39.934Z",
+      "ip": "103.21.124.1"
+    },
+    {
+      "id": "aud-2",
+      "actor": "Priya Sharma",
+      "action": "CONSENT_GRANTED_EMPLOYER_ACCESS",
+      "target": "TechCorp India",
+      "timestamp": "2026-09-21T21:36:39.934Z",
+      "ip": "122.161.45.89"
+    },
+    {
+      "id": "aud-3",
+      "actor": "TechCorp Recruiter",
+      "action": "SCHEDULED_TECHNICAL_INTERVIEW",
+      "target": "Priya Sharma (App ID #app-1)",
+      "timestamp": "2026-09-26T21:36:39.934Z",
+      "ip": "49.207.211.5"
+    }
+  ]
+}
