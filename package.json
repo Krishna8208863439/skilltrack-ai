@@ -1,0 +1,28 @@
+{
+  "name": "skilltrack-ai",
+  "version": "1.0.0",
+  "description": "SkillTrack AI — Skill Gap & Employment Intelligence Platform (SIH 2026 PS-26135)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "db:generate": "npm --prefix backend run db:generate",
+    "db:seed": "npm --prefix backend run db:seed",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "sih2026",
+    "skill-gap",
+    "employment",
+    "ai",
+    "fastapi",
+    "react",
+    "prisma",
+    "postgresql"
+  ],
+  "author": "Team Code Warriors",
+  "license": "MIT"
+}

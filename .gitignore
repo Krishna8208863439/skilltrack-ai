@@ -1,0 +1,49 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Environment / Secrets (NEVER commit these) ────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+
+# ── Uploads (user files, not source) ─────────────────────────────────────────
+backend/uploads/
+ai-service/uploads/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Test cache ────────────────────────────────────────────────────────────────
+.pytest_cache/
+coverage/
+.nyc_output/
+
+# ── Prisma ────────────────────────────────────────────────────────────────────
+backend/prisma/migrations/**/migration_lock.toml
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.tsbuildinfo
